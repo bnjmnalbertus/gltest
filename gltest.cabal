@@ -19,9 +19,8 @@ executable gltest
   ghc-options:         -Wall
   hs-source-dirs:      src
   main-is:             Main.hs
-  -- other-modules:       
+  other-modules:       Bindings, Cube, Display
   -- other-extensions:    
   build-depends:       base >=4.7 && <4.8,
                        GLUT
-  -- hs-source-dirs:      
   default-language:    Haskell2010

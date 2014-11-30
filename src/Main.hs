@@ -1,6 +1,7 @@
 module Main where
 
 import Graphics.UI.GLUT
+import Bindings (display, reshape, keyboardMouse)
 
 myPoints :: [(GLfloat, GLfloat, GLfloat)]
 myPoints = [ (sin (2*pi*k/12), cos (2*pi*k/12), 0) | k <- [1..12] ]
